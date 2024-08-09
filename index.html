@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>GreatFrontEnd Projects</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						boxShadow: {
+							card: '0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10)',
+						},
+					},
+				},
+			}
+		</script>
+		<link rel="icon" href="img/favicon.ico" sizes="any" />
+	</head>
+	<body>
+		<main
+			class="w-full h-screen bg-gradient-to-b from-gray-50 to-[#d2d6db] pt-[120px]"
+		>
+			<section class="w-full flex justify-center">
+				<div
+					class="w-[340px] flex flex-col bg-white rounded-lg overflow-hidden shadow-card"
+				>
+					<img
+						src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+						alt="image"
+						class="self-stretch h-72 object-cover"
+					/>
+					<div class="flex flex-col gap-3 self-stretch px-4 py-6">
+						<div class="flex flex-col gap-2 self-stretch">
+							<div
+								class="w-fit flex items-center bg-green-50 px-2 py-0.5 rounded-full border border-solid border-green-200"
+							>
+								<span class="font-normal text-sm text-center text-green-700"
+									>Interior</span
+								>
+							</div>
+							<p class="font-semibold text-lg text-neutral-900">
+								Top 5 Living Room Inspirations
+							</p>
+						</div>
+						<div class="flex flex-col gap-6 self-stretch">
+							<p class="font-medium text-base text-neutral-600">
+								Curated vibrants colors for your living, make it pop & calm in
+								the same time.
+							</p>
+							<button
+								class="w-fit flex items-center font-medium text-base text-indigo-700 px-0.5 gap-1.5 rounded transition-colors duration-200 ease-in-out hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-100"
+							>
+								Read More
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M13.4763 9.16658L9.00633 4.69657L10.1848 3.51807L16.6667 9.99992L10.1848 16.4817L9.00633 15.3032L13.4763 10.8332H3.33333V9.16658H13.4763Z"
+										fill="#4338CA"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>
